@@ -1,0 +1,143 @@
+{% extends "css.html" %}
+{% block title %} seeni hockey {% endblock %}
+{% block content%}
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+   <head>
+        <title>from</title>
+       <style>
+           body
+           {
+           background-repeat;
+           background-attachment:fixed;
+           background-size:cover;
+           background-image:url({{url_for('static',filename='builtin/lk.jpg')}})
+           }
+           value{
+           color:red;
+           }
+           input{
+            border:1px solid black;
+           }
+           h1{
+           color:gold}
+           p{
+           color:#8b0000;
+           }
+           marquee
+           {
+           color:gold;
+           }
+
+
+
+           h4{
+           color:black;
+           }
+           marquee
+           {
+           color:red;
+           }
+
+           h3
+           {
+           color:black;
+           }
+
+           .wrapper
+           {
+           position:absolute;
+           border:1px solid red;
+           outline:2px dashed black;
+           width:400px;
+           height:560px;
+           top:10%;
+           left:31%;
+
+           background:white;
+           padding:20px;
+           opacity:0.5;
+          }
+
+
+       </style>
+
+   </head>
+
+          <body>
+          <h1><marquee>ALL THE 12 C BOYS WELCOM OUR WEBSITE</marquee></h1>
+
+
+
+                      <div class="container">
+                         <div class="wrapper">
+
+                              <h3><marquee>12 c boys welcome</marquee></h3>
+
+
+
+    <form   action="/vsa" method="POST" >
+
+
+  <h4><p>SELECT YOUR NAME</p></h4>
+        <select name="selate"  required="">
+
+
+             <option ></option>
+                <option >1.SEENIVASAN(B.TECH)</option>
+                <option >2.SRI RAM(B.E)</option>
+                <option >3.RAM KUMAR(B.E)</option>
+                <option >4.SELVAM(B.E)</option>
+                <option >5.SUGUMARAN(B.E)</option>
+                <option >6.VIGNESH(B.E)</option>
+                <option >7.RAMESH(B.E)</option>
+                <option >8.VANKATESH(B.Sc)</option>
+                <option >9.SAKTHIVEL(B.Sc)</option>
+                <option >10.THINAKARAN(D.Phorm)</option>
+                <option >11.YUVARAJ(D.Phorm)</option>
+                <option >12.VEERARAJAN(B.E)</option>
+            <option >13.VIGNESHHWARAN(B.Sc)</option>
+
+
+        </select>
+
+
+
+           <h4><p>AGE</p></h4>
+            <input type="number" name="age" placeholder="உன் வயது என்ன?" required="">
+
+
+            <h4><p>DATE OF BIRTH</p></h4>
+            <input type="date" name="date" placeholder="date" required="">
+        <h5><p>ARE YOU '12C'</p></h5>
+        <mark>YES:</mark>
+
+        <input type="checkbox"  name="yes" value="YES" ><mark>NO:</mark>
+        <input type="checkbox" name="no" value="NO">
+
+            <h4><p>YOU COLLEGE</p></h4>
+            <input type="text" name="college" placeholder="உனது 🏢கல்லூரி என்ன?" required="">
+          <h4><p>PHONE NUMBER</p></h4>
+            <input type="number" name="phone" placeholder="உனது 📱 நம்பர் என்ன?" required="">
+
+            <input type="submit" name="" value="Register"><br>
+        <h3><a href="https://youtu.be/OV2QfNzC85E">💓SHNV BOYS🏫 SCHOOL🖤<mark>CLICK HEAR</mark> 👈</a></h3>
+
+
+
+    </form>
+                          </div>
+
+
+
+                          </div>
+
+                      </div>
+          </body>
+</html>
+
+
+
+
+{% endblock %}
